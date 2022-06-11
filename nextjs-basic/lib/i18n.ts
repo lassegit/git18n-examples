@@ -8,3 +8,5 @@ export const messages = locales.reduce((acc, cur) => {
   } catch {}
   return acc;
 }, {} as Record<string, Record<string, string>>);
+
+// Note: For Javascript just remove "as Record<string, Record<string, string>>" above

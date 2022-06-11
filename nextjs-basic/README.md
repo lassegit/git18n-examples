@@ -26,7 +26,7 @@ Running `yarn translate` will fetch translations from server and put in `.locale
 
 ## Setup
 
-Get access token (`GIT18N_SECRET_PROJECT_KEY`) on [git18n](https://git18n.com/) and add it to `.env` or as environmental variable.
+Get access token (`GIT18N_SECRET_PROJECT_KEY`) on [git18n](https://git18n.com/) and add it to `.env` or as environmental variable (for production build environments).
 
 Create `lib/i18n.ts` for configuring `react-intl` and importing translations from [git18n](https://git18n.com/):
 
@@ -60,3 +60,17 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 ```
+
+## Additional
+
+Add `yarn translate` to build command:
+
+```json
+"scripts": {
+  "build": "yarn translate && next build",
+}
+```
+
+Add `.locales` in `.gitignore`, if ESLint complains just create an empty `.locales` folder. If wanting to remove `git18n`, just uninstall the NPM package and import the translation files manually from `.locales` folder.
+
+This is everything required to be able to easily managed translations on [git18n](https://git18n.com/).

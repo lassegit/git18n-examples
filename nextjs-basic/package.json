@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn translate && next build",
     "start": "next start",
     "lint": "next lint",
     "translate": "git18n --files '(pages|components)/**/*.{js,jsx,ts,tsx}'"
