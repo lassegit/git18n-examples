@@ -6,7 +6,11 @@ Install the dependencies:
 
 ```shell
 yarn add react-intl
+```
 
+And:
+
+```shell
 yarn add -D git18n
 ```
 
