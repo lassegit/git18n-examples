@@ -1,4 +1,4 @@
-# NextJS with git18n and react-intl
+# create-react-app with git18n and react-intl
 
 ## Installation
 
