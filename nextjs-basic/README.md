@@ -14,6 +14,8 @@ And:
 yarn add -D git18n
 ```
 
+Get the access token (`GIT18N_SECRET_PROJECT_KEY`) on [git18n](https://git18n.com/) and add it to `.env` or as environmental variable (for production build environments).
+
 Add translation script to `package.json`:
 
 ```json
@@ -25,8 +27,6 @@ Add translation script to `package.json`:
 Running `yarn translate` will fetch translations from server and put in `.locales` and add strings for translations.
 
 ## Setup
-
-Get access token (`GIT18N_SECRET_PROJECT_KEY`) on [git18n](https://git18n.com/) and add it to `.env` or as environmental variable (for production build environments).
 
 Create `lib/i18n.ts` for configuring `react-intl` and importing translations from [git18n](https://git18n.com/):
 
