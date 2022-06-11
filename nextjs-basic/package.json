@@ -7,7 +7,7 @@
     "build": "yarn translate && next build",
     "start": "next start",
     "lint": "next lint",
-    "translate": "git18n --files '(pages|components)/**/*.{js,jsx,ts,tsx}'"
+    "translate": "git18n --files '(pages|components)/**/*.{js,jsx,ts,tsx}' --local"
   },
   "dependencies": {
     "next": "12.1.6",
