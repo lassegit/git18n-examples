@@ -73,4 +73,6 @@ Add `yarn translate` to build command:
 
 Add `.locales` in `.gitignore`, if ESLint complains just create an empty `.locales` folder. If wanting to remove `git18n`, just uninstall the NPM package and import the translation files manually from `.locales` folder.
 
-This is everything required to be able to easily managed translations on [git18n](https://git18n.com/).
+This is everything required to be able to easily managed translations on [git18n](https://git18n.com/):
+
+![Screenshot from git18n app](screenshot.png)
