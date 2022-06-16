@@ -22,7 +22,7 @@
     "build": "yarn translate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "translate": "git18n --files 'src/**/*.ts*' --local"
+    "translate": "git18n --files 'src/**/*.ts*'"
   },
   "eslintConfig": {
     "extends": [
