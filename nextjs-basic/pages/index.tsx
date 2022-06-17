@@ -6,7 +6,6 @@ import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   const intl = useIntl();
-  intl.formatMessage({ id: 'adasdas', defaultMessage: 'helle' });
 
   return (
     <div className={styles.container}>
